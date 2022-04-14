@@ -24,7 +24,7 @@ class MyAppState extends State<MyApp> {
     print(questions[questionIndex]);
   }
 
-  var questions = ["What is your fav color", "What is you fav choclate"];
+  var questions = ["What is your fav color?", "What is you fav choclate?"];
 
   @override
   Widget build(BuildContext context) {
